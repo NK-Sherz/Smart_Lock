@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "892670167782",
+    "firebase_url": "https://smart-lock-9b887-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "smart-lock-9b887",
+    "storage_bucket": "smart-lock-9b887.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892670167782:android:217bc80937fda4866fc927",
+        "android_client_info": {
+          "package_name": "com.example.home_sec"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyYFwznK_NPr3DtHIqkDHm2M2O7XwWsRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
