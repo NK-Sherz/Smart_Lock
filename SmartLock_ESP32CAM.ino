@@ -18,8 +18,8 @@
 #include "addons/RTDBHelper.h"/*Header file including helpers for RTDB*/
 #include <HTTPClient.h>/*Allows HTTP requests for Telegram*/
 
-#define API_KEY "AIzaSyC09nibIIMo0OYEpVmBWdepMPK8lOt-NvM"/*Identifies Firebase Project*/
-#define DATABASE_URL "https://smart-lock-9b887-default-rtdb.europe-west1.firebasedatabase.app/"/*links program to RTDB*/
+#define API_KEY ""/*Identifies Firebase Project*/
+#define DATABASE_URL ""/*links program to RTDB*/
 
 FirebaseData fbdo;/*A variable that stores data received from Firebase*/
 FirebaseAuth auth;/*A variable that stores authentication information*/
@@ -41,12 +41,12 @@ unsigned long lastUnlockMsg = 0;
 int alrtCooldown = 3000;/*minimum time esp32 must wait before sending alert message*/
 static unsigned long lastRd = 0;/*stores last time data stream was read*/
 int readBfr = 200;
-const char* ssid = "TestHotspot";/*WiFi credentials*/
-const char* password = "1234567@##";/*WiFi password*/
+const char* ssid = "";/*WiFi credentials*/
+const char* password = "";/*WiFi password*/
 String msg = '0';/*A string that holds serial message received from Arduino*/
-String botToken = "8548871113:AAFN4G5tJ3gmdGxW7OsfqQYjn7rpt543trg";/*authorization
+String botToken = "";/*authorization
                                                                   key to control a telegram bot*/
-String chatID = "8268232713";/*ID of recipient of message*/
+String chatID = "";/*ID of recipient of message*/
 
 void handleSerial();/*A function that handles serial communication with Arduino*/
 void sendMessage(String text);/*A function that sends an alert to Telegram*/
